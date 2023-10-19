@@ -9,7 +9,7 @@ def factorial(num: int):
 
 def factorial_str(num: int):
     if num == 0:
-        return 1
+        return "0! => 1"
 
     cadena = str(num) + "!" + " => "
     resultado = 1
